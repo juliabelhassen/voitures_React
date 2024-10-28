@@ -20,6 +20,5 @@ function CarCard(props : {modele: string, imgSrc: string, price: string, descrip
   )
 };
 
-CarCard(carList[0]);
 export default CarCard
 

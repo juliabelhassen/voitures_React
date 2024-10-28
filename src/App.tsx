@@ -20,7 +20,7 @@ const carList = [
   },
 
   {  
-    imgSrc : "\src\assets\Images\whiteTesla.png",
+    imgSrc : "C:\Users\Ezekiel\Documents\codegit\voitures_React\src\assets\Images\whiteTesla.png",
     modele : "Tesla",
     price : "45 600 €" ,
     description : "Une belle voiture"
@@ -28,14 +28,13 @@ const carList = [
   },
 ];
 
-const cars = carList[0]
 
 
 function App() {
 
   return (
     <>
-      <CarCard props={cars}/>
+{carList.map((props, i) => <CarCard key={i} {...props} />)}
     </>
   )
 }
