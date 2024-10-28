@@ -23,3 +23,5 @@ const carList = [
 
   },
 ];
+
+export default carList;
