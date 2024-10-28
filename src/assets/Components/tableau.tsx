@@ -1,7 +1,3 @@
-import { useState } from 'react'
-import './App.css'
-import CarCard from './assets/Components/CarCard'
-
 const carList = [
   {
   imgSrc : "\src\assets\Images\chevroletcamaro-remove.png",
@@ -28,16 +24,4 @@ const carList = [
   },
 ];
 
-const cars = carList[0]
-
-
-function App() {
-
-  return (
-    <>
-      <CarCard props={cars}/>
-    </>
-  )
-}
-
-export default App
+export default carList;
