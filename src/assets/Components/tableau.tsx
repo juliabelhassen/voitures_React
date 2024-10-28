@@ -1,6 +1,6 @@
 const carList = [
   {
-  imgSrc : "\src\assets\Images\chevroletcamaro-remove.png",
+  imgSrc : "",
   modele : "Chevrolet Camaro",
   price : "107 692 €" ,
   description : "Une belle voiture"
@@ -8,7 +8,7 @@ const carList = [
   },
 
   {  
-    imgSrc : "\src\assets\Images\citroenc4black.png",
+    imgSrc : "",
     modele : "Citroen C4",
     price : "28 250 € " ,
     description : "Une belle voiture"
@@ -16,12 +16,9 @@ const carList = [
   },
 
   {  
-    imgSrc : "\src\assets\Images\whiteTesla.png",
+    imgSrc : "",
     modele : "Tesla",
     price : "45 600 €" ,
     description : "Une belle voiture"
 
   },
-];
-
-export default carList;
