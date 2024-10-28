@@ -22,28 +22,3 @@ const carList = [
     description : "Une belle voiture"
 
   },
-
-  {  
-    imgSrc : "",
-    modele : "",
-    price : "" ,
-    description : "Une belle voiture"
-
-  },
-
-  {  
-    imgSrc : "",
-    modele : "",
-    price : "" ,
-    description : "Une belle voiture"
-
-  },
-
-  {  
-    imgSrc : "",
-    modele : "",
-    price : "" ,
-    description : "Une belle voiture"
-
-  },
-];
