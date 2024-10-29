@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  height: auto;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+}
+
+#carLogo {
+height: 8rem;
+}
+
+.mainSection {
+  display : grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px; 
+  padding: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.cardSection {
+  justify-items: center;
+  width: 30rem;
+  background-color: lightgray;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+img {
+  height: 12rem;
+}
+
+button {
+  height: 2rem;
+  width: 6rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
