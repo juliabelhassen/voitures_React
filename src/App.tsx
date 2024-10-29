@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <section class ="mainSection">
+      <section className="mainSection">
       {carList.map((props, i) => (
         <CarCard key={i} {...props} />
       ))}
