@@ -1,8 +1,10 @@
-import "./App.css";
-import CarCard from "./assets/Components/CarCard";
-import carList from "./assets/Components/tableau";
-import Footer from "./assets/Components/Footer";
-import Header from "./assets/Components/Header";
+import ScrollToTop from './assets/Components/ScrollingButton';
+import './App.css'
+import CarCard from './assets/Components/CarCard'
+import carList from './assets/Components/tableau';
+import Footer from './assets/Components/Footer';
+import Header from './assets/Components/Header';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <CarCard key={i} {...props} />
       ))}
       </section>
+        <ScrollToTop />
       <Footer />
     </>
   );
