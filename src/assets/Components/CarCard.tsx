@@ -13,7 +13,7 @@ function CarCard(props : {modele: string, imgSrc: string, price: string, descrip
 
   return (
       <>
-
+<section className="cardSection">
     <figure>
       {props.imgSrc ? <img src={props.imgSrc} /> : <p>???</p>}
       <figcaption>
@@ -27,10 +27,12 @@ function CarCard(props : {modele: string, imgSrc: string, price: string, descrip
 
     <button onClick={toggleText}>  {isExpanded ? 'Read less' : 'Read more'}  </button>  
     </figure>
+   </section>
 
       </>
   )
 };
 
 export default CarCard
+
 

@@ -5,16 +5,20 @@ import carList from './assets/Components/tableau';
 import Footer from './assets/Components/Footer';
 import Header from './assets/Components/Header';
 
-function App() {
 
+function App() {
   return (
     <>
-    <Header/>
-{carList.map((props, i) => <CarCard key={i} {...props} />)}
-<Footer />
-<ScrollToTop />
+      <Header />
+      <section class ="mainSection">
+      {carList.map((props, i) => (
+        <CarCard key={i} {...props} />
+      ))}
+      </section>
+        <ScrollToTop />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
