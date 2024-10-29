@@ -17,22 +17,25 @@ height: 8rem;
 .mainSection {
   display : grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5px; 
-  padding: 10px;
   align-items: center;
   justify-items: center;
 }
 
 .cardSection {
-  justify-items: center;
-  width: 30rem;
+  text-align: center;
+  width: 32rem;
   background-color: lightgray;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
 
+p {
+  margin: 12px;
+}
+
 img {
   height: 12rem;
+  padding-bottom: 2rem;
 }
 
 button {

@@ -3,7 +3,7 @@ function Header() {
     <>
       <figure>
         <header>
-          <img id="carLogo" src="src/assets/Images/logovoiture.png" alt="Le logo du site"/>
+          <img id="carLogo" src="./src/assets/Images/logo-cheval.png" alt="Le logo du site"/>
           <li>
             <ul>Louer</ul>
             <ul>Acheter</ul>
