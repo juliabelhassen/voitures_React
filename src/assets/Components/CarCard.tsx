@@ -11,10 +11,10 @@ function CarCard(props : {modele: string, imgSrc: string, price: string, descrip
       <figcaption>
         <p>{props.modele}</p>
       </figcaption>
-    </figure>
+    
     <p>à partir de {props.price}/mois, {props.description} </p>
-    <button />
-
+    <button>  Voir  </button>
+    </figure>
 
       </>
   )

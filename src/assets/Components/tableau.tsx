@@ -21,6 +21,30 @@ const carList = [
     price : "45 600 €" ,
     description : "Une belle voiture"
 
-  }]
+  },
+
+  {  
+    imgSrc : "src/assets/Images/whiteTesla.png",
+    modele : "Tesla",
+    price : "45 600 €" ,
+    description : "Une belle voiture"
+
+  },
+  {  
+    imgSrc : "src/assets/Images/whiteTesla.png",
+    modele : "Tesla",
+    price : "45 600 €" ,
+    description : "Une belle voiture"
+
+  },
+  {  
+    imgSrc : "src/assets/Images/whiteTesla.png",
+    modele : "Tesla",
+    price : "45 600 €" ,
+    description : "Une belle voiture"
+
+  }
+
+]
 
   export default carList
